@@ -57,9 +57,12 @@
 /themes/contrib
 /tmp
 
+# cpanel auto generated file
 /.user.ini
 /php.ini
 
+# Phpstorm auto generated file
 .idea
+.env
 
 node_modules
