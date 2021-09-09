@@ -1,3 +1,7 @@
 #!/bin/bash
 
-./vendor/bin/drush $1
+if [ $1 ]; then
+  ./vendor/bin/drush $1
+else
+  ./vendor/bin/drush
+fi
