@@ -63,5 +63,6 @@
 
 # Phpstorm auto generated file
 .idea
+.env
 
 node_modules
