@@ -109,6 +109,11 @@
             "profiles/contrib/{$name}": ["type:drupal-profile"],
             "themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/bootstrap_sass": {
+                "Fixes unexpected error in user edit" : "https://www.drupal.org/files/issues/2018-10-18/bootstrap_sass-fix-missing-file-library-2986370-13-d8.patch"
+            }
         }
     }
 }
