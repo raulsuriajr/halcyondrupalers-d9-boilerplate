@@ -94,7 +94,8 @@
             "file-mapping": {
                 "[web-root]/README.md": false,
                 "[web-root]/example.gitignore": false,
-                "[web-root]/sites/default/default.settings.php": false
+                "[web-root]/sites/default/default.settings.php": false,
+                "[web-root]/.htaccess": false
             }
         },
         "composer-exit-on-patch-failure": true,
