@@ -2,10 +2,11 @@
 A composer based drupal 9 version of boilerplate
 
 ### Features
-* Setup.sh
-* Drush.sh
+* setup.sh
+* drush.sh
 * Configured .htaccess
-* All Features from the old boilerplate (except gulp)
+* default.env-settings.php
+* All Features from the old boilerplate (except gulp and the db dump)
 
 ### Requirements
 * PHP Version 7.3 and up
