@@ -8,6 +8,10 @@ case $1 in
   php drush/drush then bootstrap_sub
   ;;
   *)
+    git clone https://github.com/drush-ops/drush.git
+
+    cd drush && rm -rf .git
+
     composer install
 
     cp example.gitignore .gitignore
