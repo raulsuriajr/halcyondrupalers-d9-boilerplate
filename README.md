@@ -12,6 +12,7 @@ A composer based drupal 9 version of boilerplate. This boilerplate eliminates th
 ### Features
 * setup.sh
 * Drush version 10
+* Drupal Console
 * Configured .htaccess
 * All Features from the old boilerplate (except gulp and the db dump)
 
@@ -53,6 +54,15 @@ A composer based drupal 9 version of boilerplate. This boilerplate eliminates th
 If you want to install all of this modules at once run `./setup.sh enmod`. **Note:** You must install drupal first before running `./setup.sh enmod`.
 
 ### Installation
+* `git clone https://github.com/raulsuriajr/halcyondrupalers-d9-boilerplate.git name_of_folder`
 * Run `./setup.sh`. This will prepare your application for drupal installation
 * Install like normal
 * Run `./setup.sh enmod` to install modules listed above.
+* Run `./setup.sh ensub` to install Bootstrap sub and Barrio
+
+### Drush
+* To use drush run `php drush/drush`
+* Example `php drush/drush uli` which will display a one time login link.
+
+### Drupal Console
+To use Drupal Console run `./vendor/bin/drupal`, this same command will list all the available commands of drupal console
