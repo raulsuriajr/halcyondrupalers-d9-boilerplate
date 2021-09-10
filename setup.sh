@@ -6,7 +6,7 @@ case $1 in
 "ensub")
   php drush/drush then bootstrap_sub
   ;;
-"initial")
+*)
   git clone https://github.com/drush-ops/drush.git && cd drush && rm -rf .git
   mkdir tmp && chmod -R a+w tmp
   composer -V && composer install
