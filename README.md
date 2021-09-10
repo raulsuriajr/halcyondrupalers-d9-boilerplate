@@ -38,15 +38,21 @@ A composer based drupal 9 version of boilerplate. This boilerplate eliminates th
 * [Image Optimize](https://www.drupal.org/project/imageapi_optimize)
 * [Image Optimize reSmush.it](https://www.drupal.org/project/imageapi_optimize_resmushit)
 * [Metatag](https://www.drupal.org/project/metatag)
-* Module Filter
-* Paragraph
-* Pathauto
-* Resmush it
-* Redirect 403
-* Recaptcha
-* Simple XML sitemap
-* Swiftmailer
-* Twig Tweak
-* Twig Extensions
-* Twig Field Value
-* Webform
+* [Module Filter](https://www.drupal.org/project/module_filter)
+* [Paragraph](https://www.drupal.org/project/paragraphs)
+* [Pathauto](https://www.drupal.org/project/pathauto)
+* [Redirect 403](https://www.drupal.org/project/r4032login)
+* [Recaptcha](https://www.drupal.org/project/recaptcha)
+* [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap)
+* [Swiftmailer](https://www.drupal.org/project/swiftmailer)
+* [Twig Extensions](https://www.drupal.org/project/twig_extensions)
+* [Twig Field Value](https://www.drupal.org/project/twig_field_value)
+* [Twig Tweak](drupal/twig_tweak)
+* [Webform](https://www.drupal.org/project/webform)
+
+If you want to install all of this modules at once run `./setup.sh enmod`. **Note:** You must install drupal first before running `./setup.sh enmod`.
+
+### Installation
+* Run `./setup.sh`. This will prepare your application for drupal installation
+* Install like normal
+* Run `./setup.sh enmod` to install modules listed above.
