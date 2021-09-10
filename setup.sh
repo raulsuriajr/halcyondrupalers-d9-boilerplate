@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $1 == 'enmod' ]]; then
-./drush.sh en drupal/module_filter drupal/backup_migrate drupal/admin_toolbar drupal/adminimal_admin_toolbar drupal/admin_toolbar_tools drupal/admin_toolbar_search drupal/pathauto drupal/metatag drupal/twig_tweak drupal/twig_extensions drupal/twig_field_value drupal/coffee drupal/bamboo_twig drupal/editor_advanced_link drupal/editor_advanced_image drupal/back_to_top drupal/image_effects drupal/imageapi_optimize_resmushit drupal/advagg
+php drush/drush en module_filter backup_migrate admin_toolbar adminimal_admin_toolbar admin_toolbar_tools admin_toolbar_search pathauto metatag twig_tweak twig_extensions twig_field_value coffee bamboo_twig editor_advanced_link editor_advanced_image back_to_top image_effects imageapi_optimize_resmushit advagg
 else
   composer install
 
