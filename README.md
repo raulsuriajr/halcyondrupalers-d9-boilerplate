@@ -51,7 +51,7 @@ A composer based drupal 9 version of boilerplate. This boilerplate eliminates th
 * [Twig Tweak](drupal/twig_tweak)
 * [Webform](https://www.drupal.org/project/webform)
 
-If you want to install all of this modules at once run `./setup.sh enmod`. **Note:** You must install drupal first before running `./setup.sh enmod`.
+If you want to install all of this modules at once run, `./setup.sh enmod`. **Note:** You must install drupal first before running `./setup.sh enmod`.
 
 ### Installation
 * `git clone https://github.com/raulsuriajr/halcyondrupalers-d9-boilerplate.git name_of_folder`
