@@ -12,8 +12,6 @@ case $1 in
 
     cd drush && rm -rf .git
 
-    composer install
-
     cp example.gitignore .gitignore
 
     mkdir tmp && chmod -R a+w tmp
