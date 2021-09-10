@@ -6,20 +6,12 @@ case $1 in
 "ensub")
   php drush/drush then bootstrap_sub
   ;;
-esac
-git clone https://github.com/drush-ops/drush.git && cd drush && rm -rf .git
-mkdir tmp && chmod -R a+w tmp
-composer -V && composer install
-if [ ! -f ".gitignore" ]; then
-  cp example.gitignore .gitignore
-fi
-if [ ! -f "sites/default/files/private" ]; then
+"initial")
+  git clone https://github.com/drush-ops/drush.git && cd drush && rm -rf .git
+  mkdir tmp && chmod -R a+w tmp
+  composer -V && composer install
   mkdir -p sites/default/files/private && chmod -R a+w sites/default/files/private && chmod -R a+w sites/default/files
-fi
-SETTINGS_PHP="sites/default/settings.php"
-if [ ! -f $SETTINGS_PHP ]; then
   cp sites/default/default.settings.php sites/default/settings.php && chmod -R a+w sites/default/settings.php
-fi
-if [ ! -f "sites/default/services.yml" ]; then
   cp sites/default/default.services.yml sites/default/services.yml
-fi
+  ;;
+esac
