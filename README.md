@@ -59,6 +59,7 @@ If you want to install all of this modules at once run, `./setup.sh enmod`. **No
 * Install like normal
 * Run `./setup.sh enmod` to install modules listed above.
 * Run `./setup.sh ensub` to install Bootstrap sub and Barrio
+* Run `rm -rf .git`
 
 ### Drush
 * To use drush run `php drush/drush`
