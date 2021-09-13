@@ -66,4 +66,4 @@ If you want to install all of this modules at once run, `./setup.sh enmod`. **No
 * Example `php drush/drush uli` which will display a one time login link.
 
 ### Drupal Console
-To use Drupal Console run `./vendor/bin/drupal`, this same command will list all the available commands of drupal console
+To use Drupal Console run `./vendor/bin/drupal`, this command will list all the available commands of drupal console
