@@ -1,7 +1,7 @@
 #!/bin/sh
 case $1 in
 "enmod")
-  php drush/drush en module_filter backup_migrate admin_toolbar adminimal_admin_toolbar admin_toolbar_tools admin_toolbar_search pathauto metatag twig_tweak twig_extensions twig_field_value coffee bamboo_twig editor_advanced_link editor_advanced_image back_to_top image_effects imageapi_optimize_resmushit advagg
+  php drush/drush en module_filter backup_migrate admin_toolbar adminimal_admin_toolbar admin_toolbar_tools admin_toolbar_search pathauto metatag twig_tweak twig_extensions twig_field_value coffee bamboo_twig bamboo_twig_config bamboo_twig_extensions bamboo_twig_file bamboo_twig_i18n bamboo_twig_loader bamboo_twig_security bamboo_twig_path bamboo_twig_token editor_advanced_link editor_advanced_image back_to_top image_effects imageapi_optimize_resmushit advagg advagg_css_minify advagg_js_minify quicklink
   ;;
 "ensub")
   php drush/drush then bootstrap_sub
