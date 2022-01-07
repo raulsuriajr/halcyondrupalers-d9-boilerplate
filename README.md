@@ -1,4 +1,4 @@
-### Halcyon D9 Boilerplate
+### D9 Boilerplate
 A composer based drupal 9 version of boilerplate. This boilerplate eliminates the common problem that we always encounter in the new server.
 
 ### Changes
